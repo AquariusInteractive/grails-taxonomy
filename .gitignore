@@ -1,0 +1,17 @@
+.idea
+.classpath
+.project
+*.iml
+*.iwr
+*/target/**
+/out/**
+*.class
+stacktrace.log
+/target/*
+*.ipr
+deprep*.txt
+*.iws
+node_modules/*
+web-app/modules/*
+/tng-client/nbproject/private/
+.tmp

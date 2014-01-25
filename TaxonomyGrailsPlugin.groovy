@@ -4,11 +4,11 @@ import com.grailsrocks.taxonomy.TaxonomyService
 
 class TaxonomyGrailsPlugin {
     // the plugin version
-    def version = "1.2"
+    def version = "1.3"
     // the version or versions of Grails the plugin is designed for
-    def grailsVersion = "1.1.1 > *"
+    def grailsVersion = "2.3.0 > *"
     // the other plugins this plugin depends on
-    def dependsOn = [domainClass:'1.1.1 > *']
+    def dependsOn = [domainClass:'2.3.0 > *']
     def observe = ['domainClass']
     def loadAfter = ['hibernate']
     
