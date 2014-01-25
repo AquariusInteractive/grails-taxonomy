@@ -1,11 +1,9 @@
 package com.grailsrocks.taxonomy
 
-import grails.transaction.Transactional
-
-@SuppressWarnings(["GroovyVariableNotAssigned", "GroovyAssignmentToMethodParameter"])
-@Transactional
 class TaxonomyService {
 
+    static transactional = true
+    
     static DELIMITER = ','
     
     static GLOBAL_TAXONOMY_NAME = '_global'
