@@ -15,3 +15,5 @@ node_modules/*
 web-app/modules/*
 /tng-client/nbproject/private/
 .tmp
+
+*.iml

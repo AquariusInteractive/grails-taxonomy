@@ -38,9 +38,10 @@ Add hierarichal tags (taxonomies) to any domain classes.
 
     def doWithDynamicMethods = { ctx ->
         def taxoService = ctx.taxonomyService
-        
+
+        // Refactored init to be called via InitializingBean Interface
         // Make sure global taxo is initialized
-        taxoService.init()
+        //taxoService.init()
         
         applyDynamicMethods(application)
     }
